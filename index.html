@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mian.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+<link rel="icon" href="/img/—Pngtree—music neck band logo_6038745.png">
+<i class="fa-sharp fa-light fa-music-note"></i>
+<title>Music</title>
+</head>
+<body>
+   <div class="app">
+    <div class="player">
+        <div class="dashboard">
+            <header>
+                <h4>Now playing:</h4>
+                <h3>String 57th & 9th </h3>
+            </header>
+            <div class="cd">
+                <div class="cd__img" style="background-image: url('https://vapa.vn/wp-content/uploads/2022/12/hinh-nen-hacker-012-2.jpg');"></div>
+            </div>
+            <div class="control">
+                  <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                  </div>
+                  <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                  </div>
+                  <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause acctive"></i>
+                    <i class="fas fa-play icon-play"></i>
+                  </div>
+                  <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                  </div>
+                  <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                  </div>
+            </div>
+            <input type="range" id="song" min="0" step="0.5" value="0" max="100" class="ranger" >
+            <audio id="audio" src=""></audio>
+            <div class="times">
+              <div class="progress-start-time"></div>
+              <div class="progress-start-end"></div>
+            </div>
+            <div class="volum">
+              <i class="fa-solid fa-volume-high volume1"></i>
+             <input class="volume2" type="range" min="0" step="1" value="100" max="100">
+            </div>
+        </div>
+        <div class="list">
+                 
+        </div>
+    </div>
+   </div>
+   <div class="footer">
+        <i class="fa-sharp fa-regular fa-copyright"></i>
+        <h3>Made by DongAnh - March 2023.
+        </h3>
+   </div>
+    <script src="style.js">
+
+    </script>
+</body>
+</html>
